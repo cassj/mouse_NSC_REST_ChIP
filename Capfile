@@ -19,8 +19,8 @@ set :snap_id, `cat SNAPID`.chomp
 set :vol_id, `cat VOLUMEID`.chomp 
 set :ebs_size, 50
 set :availability_zone, 'eu-west-1a'
-#set :dev, '/dev/sdf'
-set :dev, '/dev/xvdf'
+set :dev, '/dev/sdf'
+#set :dev, '/dev/xvdf'
 set :mount_point, '/mnt/data'
 
 script_dir = "/space/cassj/chipseq_pipeline"
